@@ -17,11 +17,13 @@ public class App {
         Product item2 = new Product("Cola", 50);
         Product item3 = new Bottle("Mineral Water", 70,(float)1.5);
         Product item4 = new HotDrink("Coffee", 80, 20);
+        Product item5 = new HotDrink("Tea", 60, 15);
 
         assort.add(item1);
         assort.add(item2);
         assort.add(item3);
         assort.add(item4);
+        assort.add(item5);
 
         Holder hold1 = new Holder(10, 10);
         CoinDispenser coinDisp = new CoinDispenser(200);

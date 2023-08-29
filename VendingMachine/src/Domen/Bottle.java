@@ -19,7 +19,7 @@ public class Bottle extends Product {
 
     @Override
     public String toString(){
-        return super.toString() + "; volume=" + this.bottleVolume + ";";
+        return super.toString() + "; volume=" + this.bottleVolume;
     }
 
     

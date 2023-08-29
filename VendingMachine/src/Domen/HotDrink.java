@@ -19,7 +19,7 @@ public class HotDrink extends Product {
 
     @Override
     public String toString() {
-        return super.toString() + "; temperture=" + this.temperature + ";";
+        return super.toString() + "; temperture=" + this.temperature;
     }
 
     
